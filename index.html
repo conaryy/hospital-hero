@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hospital Hero</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="game-container">
+    <h1>🏥 Hospital Hero</h1>
+    <p id="score">Health Score: 0</p>
+    
+    <div class="action">
+      <p>Ada pasien baru datang. Apa yang kamu lakukan?</p>
+      <button onclick="chooseAction('sanitize')">🧼 Cuci tangan</button>
+      <button onclick="chooseAction('ignore')">🙈 Abaikan</button>
+    </div>
+
+    <p id="result"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
